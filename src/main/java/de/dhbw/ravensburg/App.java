@@ -1,5 +1,7 @@
 package main.java.de.dhbw.ravensburg;
 
+import java.util.Scanner;
+
 public class App {
 
     public static void main(String[] args) {
@@ -37,6 +39,12 @@ public class App {
         int student2Grade = ++student1Grade;
         int student3Grade = student1Grade--;
         System.out.println(student1Grade + student2Grade + student3Grade);
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Bitte geben Sie einen Text ein");
+        System.out.print(">>> ");
+        String string1 = sc.nextLine();
+        System.out.println(string1);
     }
 
 }
