@@ -11,6 +11,8 @@ public class App3 {
         System.out.println(vector);
 
         ArrayList<ArrayList<ArrayList<Integer>>> vecs = new ArrayList<>();
+
+        vecs.size();
     }
 
 }
