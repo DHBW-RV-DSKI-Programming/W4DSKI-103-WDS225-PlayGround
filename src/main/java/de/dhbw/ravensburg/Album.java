@@ -10,5 +10,9 @@ class Album {
         this.releaseYear = releaseYear;
     }
 
+    void releaseAlbum() {
+        System.out.println("Album release");
+    }
+
 }
 
